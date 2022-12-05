@@ -1,0 +1,72 @@
+body{
+    background-color: #fffec2;
+   }
+   nav {
+       border-radius: 10px;
+       color: white;
+   }
+     nav ul{
+      list-style: none;
+      
+        
+     }
+       nav li {
+        position: relative;
+        display: inline-block;
+         padding-left: 5%;
+       
+       }
+       nav a {
+       display: block;
+       font-size: 30px;
+       text-align: center;
+       text-decoration: none;
+       line-height: 50px;
+       color: white;
+   }
+   nav ul :hover {
+   transition: .5s;
+    transform: translateY(-5%);
+   }
+   header{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       background: #5a6f57;
+       border-radius: 10px;
+       color: white;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .izquierda{
+	width: 90%;
+	height: 90%;
+}
+.izquierda p{
+    font-size: 30px;
+	padding-left: 40%;	
+}
+.derecha{
+    width: 35%;
+	height: 100%;
+    padding-left: 45%;
+}
+
+.tit{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.direc{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;   
+}
+
+.direc img{
+    width: 85%;
+	height: 85%;
+    padding-left: 6%;
+}
